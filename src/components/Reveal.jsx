@@ -16,7 +16,7 @@ const Reveal = ({ children, width = 'fit-content' }) => {
     }, [isInView, mainControls])
 
   return (
-    <div ref={ref} style={{ position: 'relative', width, overflow: 'hidden' }}>
+    <div ref={ref} style={{ position: 'relative', width:'auto', overflow: 'hidden' }}>
 
         <motion.div
         variants={{

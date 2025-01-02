@@ -37,7 +37,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="max-w-[650px] mx-auto flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12" id="skills">
+    <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-center px-4 text-gray-200 pb-8 md:py-12" id="skills">
         <Reveal>
         <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
         <p className="text-center mb-8">
@@ -52,7 +52,9 @@ const Skills = () => {
                     <h3 className="text-xl font-bold mb-4 text-center">{skill.category}</h3>
                     <div className="grid grid-cols-2 gap-4">
                         {skill.technologies.map((tech, idx) => (
-                            <div key={idx} className="flex items-center space-x-2">
+                         <div key={idx} className="flex items-center space-x-2 py-2 px-3 border
+                          border-primary shadow-[0_4px_6px_0_rgba(255,255,255,0.3)]  rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-xl hover:scale-110">
+
                                 <span className="text-2xl">{tech.icon}</span>
                                 <span>{tech.name}</span>
                             </div>
