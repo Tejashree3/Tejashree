@@ -3,21 +3,25 @@ import { motion } from 'framer-motion';
 import Reveal from './Reveal';
 
 const experiences = [
+
   {
     company: 'Zerovaega Technologies',
     period: '2021-NOV - 2022-FEB',
     description: 'This is a detailed description of your experience in this company. It goes on to describe your role, responsibilities, and achievements during your tenure.',
   },
+
   {
     company: 'Neosao Services | Software Company in Kolhapur',
     period: '2024-APR - 2024-OCT',
     description: 'This is a detailed description of your experience in this company. It elaborates on the skills you developed and the projects you contributed to.',
   },
+
   {
     company: 'Tribe Appsoft India LLP',
     period: '2024 - Present',
     description: 'This is a detailed description of your experience in this company. It focuses on your ongoing projects and the impact you are making.',
   },
+
 ];
 
 const Experience = () => {
@@ -41,7 +45,7 @@ const Experience = () => {
                 viewport={{ once: false, amount: 0.3 }}
                 transition={{ duration: 1 }}
                 className="border border-primary p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-purple-700/10"
-              >
+                >
                 <h2 className="text-gray-100 text-2xl font-semibold">{experience.company}</h2>
                 <p className="text-gray-300">{experience.period}</p>
                 <motion.div
