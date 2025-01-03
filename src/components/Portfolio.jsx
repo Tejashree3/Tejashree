@@ -10,8 +10,8 @@ import Reveal from './Reveal';
 const projects = [
     {
       img: project1,
-      title: "Project #1",
-      description: "UI for frontend development using React.",
+      title: "Fullstack clone - ferns Reality",
+      description: "Design website and Dashboard using React js ,Tailwind css",
       links: {
         site: "#",
         github: "#",
@@ -19,8 +19,8 @@ const projects = [
     },
     {
       img: project2,
-      title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      title: "food Delivery-landing page",
+      description: "A food Delivery-landing page design using React js ,tailwind css , framer-motion",
       links: {
         site: "#",
         github: "#",
@@ -28,8 +28,8 @@ const projects = [
     },
     {
       img: project4,
-      title: "Project #3",
-      description: "An e-commerce platform with various features.",
+      title: "Best food - website",
+      description: "A Best food - website create using  React js ,tailwind css , framer-motion .",
       links: {
         site: "#",
         github: "#",
@@ -47,13 +47,18 @@ const Portfolio = () => {
             <Reveal>
             <div key={index}
             className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} mb-12`}>
-                <div className='w-full md:w-1/2 p-4'>
-                    <img
-                        src={project.img}
-                        alt={project.title}
-                        className='w-full h-full object-cover rounded-lg shadow-lg'
-                    />
-                </div>
+<div className="w-full md:w-1/2 p-4">
+    <div className="h-[300px] overflow-hidden rounded-lg shadow-lg group relative">
+        <div className=" h-full w-full rounded-lg shadow-inner relative">
+            <img
+                src={project.img}
+                alt={project.title}
+                className="w-full h-auto object-cover absolute top-0 group-hover:scale-110 group-hover:translate-y-[-200px] transition-transform duration-700 ease-in-out"
+            />
+        </div>
+    </div>
+</div>
+
                 <div className='w-full md:w-1/2 p-4 flex flex-col justify-center'>
                     <h3 className='text-2xl font-semibold text-gray-200 mb-4'>{project.title}</h3>
                     <p className='text-gray-300 mb-4'>{project.description}</p>

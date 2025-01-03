@@ -17,7 +17,7 @@ import {
 } from "react-icons/di";
 
 
-import { SiTailwindcss } from "react-icons/si"; // Import Tailwind CSS icon
+import { SiTailwindcss } from "react-icons/si";
 import { motion } from "framer-motion";
 
 
@@ -89,9 +89,9 @@ const Hero = () => {
                             <AiOutlineLinkedin/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        {/* <motion.a whileHover={{ scale: 1.2 }} href="#">
                             <AiOutlineInstagram/>
-                        </motion.a>
+                        </motion.a> */}
                     </div>
                 </motion.div>
             </motion.div>

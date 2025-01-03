@@ -95,6 +95,7 @@ const Contact = () => {
             </p>
             <input
               type="text"
+              
               id="name"
               placeholder="Your Name ..."
               name="name"
