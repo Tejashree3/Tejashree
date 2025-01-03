@@ -27,7 +27,7 @@ const projects = [
       },
     },
     {
-      img: project4,
+      img: project5,
       title: "Best food - website",
       description: "A Best food - website create using  React js ,tailwind css , framer-motion .",
       links: {
@@ -35,11 +35,20 @@ const projects = [
         github: "#",
       },
     },
-
+    {
+      img: project4,
+      title: " Restaurant - landing-page",
+      description: "A  Restaurant - landing page create using  React js ,tailwind css , framer-motion .",
+      links: {
+        site: "#",
+        github: "#",
+      },
+    },
 
   ]
 
 const Portfolio = () => {
+  
   return (
     <div className='max-w-[1000px] mx-auto p-6 md:my-20' id="portfolio">
         <h2 className='text-3xl font-bold text-gray-200 mb-8'>Portfolio</h2>
@@ -47,16 +56,18 @@ const Portfolio = () => {
             <Reveal>
             <div key={index}
             className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} mb-12`}>
-<div className="w-full md:w-1/2 p-4">
-    <div className="h-[300px] overflow-hidden rounded-lg shadow-lg group relative">
-        <div className=" h-full w-full rounded-lg shadow-inner relative">
-            <img
-                src={project.img}
-                alt={project.title}
-                className="w-full h-auto object-cover absolute top-0 group-hover:scale-110 group-hover:translate-y-[-200px] transition-transform duration-700 ease-in-out"
-            />
-        </div>
-    </div>
+<div className="w-full md:w-1/2 py-6 border border-primary rounded-md" >
+<div className="h-[300px] overflow-hidden rounded-lg shadow-lg group relative px-9 flex justify-center items-center">
+  <div className="h-full w-full rounded-lg   relative ">
+    <img
+      src={project.img}
+      alt={project.title}
+      className="w-full shadow-[0_4px_6px_0_rgba(255,255,255,0.3)] rounded-md h-auto object-cover  absolute top-0  transition-transform duration-[10s] ease-in-out group-hover:translate-y-[-88%]"
+      style={{ height: "auto" }} // Ensure the image height is auto
+    />
+  </div>
+</div>
+
 </div>
 
                 <div className='w-full md:w-1/2 p-4 flex flex-col justify-center'>
@@ -81,7 +92,15 @@ const Portfolio = () => {
             </div>
             </Reveal>
         ))}
-        
+        <div className='flex justify-center items-center'>
+
+         <div className="flex items-center space-x-2 py-2 px-3 border
+                          border-primary shadow-[0_4px_6px_0_rgba(255,255,255,0.3)]  rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-xl hover:scale-110">
+
+                                <span className="text-lg">Find more on </span>
+                                <span><AiOutlineGithub/></span>
+                            </div>
+        </div>
     </div>
   )
 }
