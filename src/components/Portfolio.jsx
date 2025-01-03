@@ -14,7 +14,7 @@ const projects = [
       description: "Design website and Dashboard using React js ,Tailwind css",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/Tejashree3/website",
       },
     },
     {
@@ -23,7 +23,7 @@ const projects = [
       description: "A food Delivery-landing page design using React js ,tailwind css , framer-motion",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/Tejashree3/Food-delivery",
       },
     },
     {
@@ -32,7 +32,7 @@ const projects = [
       description: "A Best food - website create using  React js ,tailwind css , framer-motion .",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/Tejashree3/best-food-website",
       },
     },
     {
@@ -41,7 +41,7 @@ const projects = [
       description: "A  Restaurant - landing page create using  React js ,tailwind css , framer-motion .",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/Tejashree3/resto-web-FoodieWeb-main",
       },
     },
 
@@ -81,7 +81,7 @@ const Portfolio = () => {
                         </a>
                         <a href={project.links.github}
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
-                                        transition duration-300'>
+                                        transition duration-300' target='_blank'>
                             <AiOutlineGithub/>
                         </a>
 
@@ -94,12 +94,14 @@ const Portfolio = () => {
         ))}
         <div className='flex justify-center items-center'>
 
+        <a href="https://github.com/Tejashree3" target='_blank'>
          <div className="flex items-center space-x-2 py-2 px-3 border
                           border-primary shadow-[0_4px_6px_0_rgba(255,255,255,0.3)]  rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-xl hover:scale-110">
 
                                 <span className="text-lg">Find more on </span>
                                 <span><AiOutlineGithub/></span>
                             </div>
+        </a>
         </div>
     </div>
   )

@@ -16,14 +16,14 @@ import {
   DiReact,
 } from "react-icons/di";
 
-
+import resume from "../../public/Tejashree_Dhalgade_Resume.pdf"
 import { SiTailwindcss } from "react-icons/si";
 import { motion } from "framer-motion";
 
 
 const Hero = () => {
   return (
-    <div className="mt-24 max-w-[1200px] mx-auto relative">
+    <div className="mt-24 p-4 max-w-[1200px] mx-auto relative">
         <div className="grid md:grid-cols-2 place-items-center gap-8">
             <motion.div
             initial={{ opacity: 0, y: -50 }}
@@ -77,15 +77,22 @@ const Hero = () => {
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-primary rounded-xl"     
                     >
+
+<a 
+    href={resume} 
+    download 
+    className="no-underline text-gray-200"
+  >
                         Download CV
+                        </a>
                     </motion.button>
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-primary z-20">
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/Tejashree3" target="_blank">
                             <AiOutlineGithub/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/tejashree-dhalgade-1088181a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                             <AiOutlineLinkedin/>
                         </motion.a>
 
