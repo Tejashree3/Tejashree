@@ -5,21 +5,21 @@ import Reveal from './Reveal';
 const experiences = [
 
   {
-    company: 'Zerovaega Technologies',
-    period: '2021-NOV - 2022-FEB',
-    description: 'This is a detailed description of your experience in this company. It goes on to describe your role, responsibilities, and achievements during your tenure.',
+    company: 'Tribe Appsoft India LLP',
+    period: '2024 - Present',
+    description: 'This is a detailed description of your experience in this company. It focuses on your ongoing projects and the impact you are making.',
   },
-
+  
   {
     company: 'Neosao Services | Software Company in Kolhapur',
     period: '2024-APR - 2024-OCT',
     description: 'This is a detailed description of your experience in this company. It elaborates on the skills you developed and the projects you contributed to.',
   },
-
+  
   {
-    company: 'Tribe Appsoft India LLP',
-    period: '2024 - Present',
-    description: 'This is a detailed description of your experience in this company. It focuses on your ongoing projects and the impact you are making.',
+    company: 'Zerovaega Technologies',
+    period: '2021-NOV - 2022-FEB',
+    description: 'This is a detailed description of your experience in this company. It goes on to describe your role, responsibilities, and achievements during your tenure.',
   },
 
 ];

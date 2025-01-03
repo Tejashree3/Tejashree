@@ -42,7 +42,7 @@ const Hero = () => {
                     ]}
                     speed={50}
                     repeat={Infinity}
-                    className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-4"
+                    className="font-bold text-gray-400 text-xl md:text-3xl italic- mb-4"
                 />
 
                 <motion.p
