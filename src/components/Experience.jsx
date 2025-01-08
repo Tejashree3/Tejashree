@@ -7,19 +7,19 @@ const experiences = [
   {
     company: 'Tribe Appsoft India LLP',
     period: '2024 - Present',
-    description: 'This is a detailed description of your experience in this company. It focuses on your ongoing projects and the impact you are making.',
+    description: 'Designed and implemented a property management dashboard with CRUD functionalities, enabling efficient listing updates and property categorization.Developed responsive blog pages and additional content modules, improving user retention by 15% through enhanced interface design.',
   },
   
   {
     company: 'Neosao Services | Software Company in Kolhapur',
     period: '2024-APR - 2024-OCT',
-    description: 'This is a detailed description of your experience in this company. It elaborates on the skills you developed and the projects you contributed to.',
+    description: 'Designed and implemented portfolio, blog, and career pages for Neosaos website using HTML, CSS, React.js,resulting in a 25% increase in visitor retention.Created and deployed 10+ responsive landing pages using Tailwind CSS, Material UI, and CoreUI, reducing pageload time by 15% and improving user experience.',
   },
   
   {
     company: 'Zerovaega Technologies',
     period: '2021-NOV - 2022-FEB',
-    description: 'This is a detailed description of your experience in this company. It goes on to describe your role, responsibilities, and achievements during your tenure.',
+    description: 'Designed and implemented 10+ webpages for the Zerovaega platform using HTML, CSS, JavaScript, and Bootstrap, improving website navigation and user engagement by 20%. Developed the "Constant Reader-Book Store" project to manage book categories and inventories, increasing data organization efficiency by 30%.Technologies: HTML, CSS, Javascript, React.js',
   },
 
 ];
