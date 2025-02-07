@@ -7,7 +7,7 @@ const experiences = [
   {
     company: 'Tribe Appsoft India LLP',
     period: '2024 - Present',
-    description: 'Designed and implemented a property management dashboard with CRUD functionalities, enabling efficient listing updates and property categorization.Developed responsive blog pages and additional content modules, improving user retention by 15% through enhanced interface design.',
+    description: 'Designed and implemented a property management dashboard with CRUD functionalities, enabling efficient listing updates and property categorization.Developed responsive blog pages and additional content modules, improving user retention by 15% throughenhanced interface design.',
   },
   
   {
@@ -25,6 +25,10 @@ const experiences = [
 ];
 
 const Experience = () => {
+
+
+
+  
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const toggleDescription = (index) => {
