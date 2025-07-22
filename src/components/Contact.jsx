@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="flex mt-10 items-center gap-7">
               <div className="bg-gray-800/40 p-4 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  8<span>+</span>
+                  10<span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>Projects</span>
@@ -67,7 +67,7 @@ const Contact = () => {
 
               <div className="bg-gray-800/40 p-5 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  1<span></span>
+                  1.9<span></span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>Years of Experience</span>
