@@ -3,21 +3,25 @@ import { motion } from 'framer-motion';
 import Reveal from './Reveal';
 
 const experiences = [
-
   {
-    company: 'Tribe Appsoft India LLP',
-    period: '2024 - Present',
+    company: 'CoreEHS Pvt Ltd | Junior Developer',
+    period: '2025-MAY - Present',
+    description: 'Fine-tuned UI and integrated 10+ APIs, generated dynamic reports for all the modules of the project.',
+  },
+  {
+    company: 'Tribe Appsoft India LLP | Junior Developer',
+    period: '2024-DEC - 2025-MAY',
     description: 'Designed and implemented a property management dashboard with CRUD functionalities, enabling efficient listing updates and property categorization.Developed responsive blog pages and additional content modules, improving user retention by 15% throughenhanced interface design.',
   },
   
   {
-    company: 'Neosao Services | Software Company in Kolhapur',
-    period: '2024-APR - 2024-OCT',
+    company: 'Neosao Services | Tr. Frontend Developer',
+    period: '2023-NOV - 2024-NOV',
     description: 'Designed and implemented portfolio, blog, and career pages for Neosaos website using HTML, CSS, React.js,resulting in a 25% increase in visitor retention.Created and deployed 10+ responsive landing pages using Tailwind CSS, Material UI, and CoreUI, reducing pageload time by 15% and improving user experience.',
   },
   
   {
-    company: 'Zerovaega Technologies',
+    company: 'Zerovaega Technologies | Frontend Developer Intern',
     period: '2021-NOV - 2022-FEB',
     description: 'Designed and implemented 10+ webpages for the Zerovaega platform using HTML, CSS, JavaScript, and Bootstrap, improving website navigation and user engagement by 20%. Developed the "Constant Reader-Book Store" project to manage book categories and inventories, increasing data organization efficiency by 30%.Technologies: HTML, CSS, Javascript, React.js',
   },
