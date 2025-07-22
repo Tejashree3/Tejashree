@@ -11,6 +11,8 @@ import {
   DiGithubBadge,
 } from "react-icons/di"
 import { BiLogoTypescript } from "react-icons/bi";
+import { BiLogoTailwindCss } from "react-icons/bi";
+
 import { FaGithub } from "react-icons/fa";
 
 import Reveal from "./Reveal"
@@ -27,6 +29,7 @@ const skills = [
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
         {name : 'Typescript', icon :<BiLogoTypescript className='text-blue-400' />},
                 {name : 'Github', icon :<FaGithub  />},
+        {name: 'Tailwind CSS', icon :<BiLogoTailwindCss className='text-cyan-500' />}
 
       ],
     },
