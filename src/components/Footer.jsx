@@ -10,7 +10,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/tejashree-dhalgade-1088181a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'><FaLinkedin /></a>
                 </div>
             </div>
-            <p className='text-gray-400'>@2024 Tejashree Dhalgade</p>
+            <p className='text-gray-400'>@2025 Tejashree Dhalgade</p>
 
         </div>
     )
