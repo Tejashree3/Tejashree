@@ -10,7 +10,7 @@ import {
   DiMongodb,
   DiGithubBadge,
 } from "react-icons/di"
-import { SiTypescript } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
 
 import Reveal from "./Reveal"
@@ -25,7 +25,7 @@ const skills = [
         { name: 'Bootstrap', icon: <DiBootstrap className='text-purple-600' /> },
         { name: 'JavaScript', icon: <DiJavascript1 className='text-yellow-500' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
-        {name : 'Typescript', icon :<SiTypescript className='text-blue-400' />},
+        {name : 'Typescript', icon :<BiLogoTypescript className='text-blue-400' />},
                 {name : 'Github', icon :<FaGithub  />},
 
       ],
