@@ -24,15 +24,15 @@ const skills = [
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
       ],
     },
-    {
-      category: 'Fullstack',
-      technologies: [
-        { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
-        { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
-        { name: 'React', icon: <DiReact className='text-blue-500' /> },
-        { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
-      ],
-    },
+    // {
+    //   category: 'Fullstack',
+    //   technologies: [
+    //     { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
+    //     { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
+    //     { name: 'React', icon: <DiReact className='text-blue-500' /> },
+    //     { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
+    //   ],
+    // },
   ]
 
 const Skills = () => {
