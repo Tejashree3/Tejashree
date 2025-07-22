@@ -48,10 +48,7 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+                Software developer with hands-on experience in building scalable web applications using React.js, Redux, and Tailwind CSS. Proficient in REST API integration, state management, and real-time communication using Socket.io. Known for delivering high-performance, visually appealing UIs with optimized load times and seamless UX.
               </p>
             </div>
 
