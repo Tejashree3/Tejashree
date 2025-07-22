@@ -30,7 +30,7 @@ const skills = [
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
         {name : 'Typescript', icon :<BiLogoTypescript className='text-blue-400' />},
                 {name : 'Github', icon :<FaGithub  />},
-        {name: 'Tailwind CSS', icon :<BiLogoTailwindCss className='text-cyan-500' />},
+        {name: 'Tailwind', icon :<BiLogoTailwindCss className='text-cyan-500' />},
                 {name: 'Node JS', icon :<FaNodeJs className='text-green-500' />}
 
 
